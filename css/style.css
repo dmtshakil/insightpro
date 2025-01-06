@@ -317,6 +317,12 @@
   transition: color 0.3s ease-in-out;
 }
 
+@media (max-width: 768px) {
+  .social-icons a{
+    font-size: 1rem;
+  }
+}
+
 .social-icons a:hover {
   color: #ffff; /* Darker shade on hover */
 }
@@ -620,3 +626,17 @@
   }
 }
 
+@media (max-width: 575px) {
+  .contact-section {
+    padding: 10px;
+  }
+  .contact-details p{
+    font-size: 1.1rem;
+  }
+  .contact-details i{
+    font-size: 1.1rem;
+  }
+  .contact-details-img{
+    height: 70px !important;
+  }
+}
