@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insight Pro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/Untitled design.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body style="background-color:#1c272a">
+    <!-- top -->
+    <section>
+        <div class="d-flex justify-content-center top-bg">
+            <marquee class="h4" direction="right"> Insight pro Agency </marquee direction="right">
+        </div>
+    </section>
+
+    <!-- header -->
+    <section class="d-flex justify-content-around align-items-center sticky-top menu-ber" style="background-color: #2a3d40;">
+        <div>
+            <a href="index.html"><img src="img/page main logo (1).png" alt="logo" width="125px"></a>
+        </div>
+        <div class="d-none d-xl-block">
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                    <div class="dropdown">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">SERVICE<i class="ps-3 bi bi-arrow-bar-down"></i></a>
+                        </li>
+                        <div class="dropdown-content">
+                            <div class="col-3 border m-1">
+                                <a href="dm.html" class="h5 d-flex sub-color p-2 text-decoration-none">DIGITAL MARKETING</a>
+                                <li><a href="#" class="nav-link">Meta Ads Management </a></li>
+                                <li><a href="#" class="nav-link">Google Ads Management</a></li>
+                                <li><a href="#" class="nav-link">Web Analytics</a></li>
+                                <li><a href="#" class="nav-link">Strategy & Planning </a></li>
+                                <li><a href="#" class="nav-link">CRO </a></li>
+                                <li><a href="#" class="nav-link">Social Media Marketing </a></li>
+                                <li><a href="#" class="nav-link">Search Engin Optimization</a></li>
+                            </div>
+                            <div class="col-3 border m-1">
+                                <a href="#" class="h5 d-flex sub-color p-2 text-decoration-none">WEB DEVELOPMENT</a>
+                                <li><a href="#" class="nav-link">Front-End Development</a></li>
+                                <li><a href="#" class="nav-link">Back-End Development</a></li>
+                                <li><a href="#" class="nav-link">Full-Stack Development</a></li>
+                                <li><a href="#" class="nav-link">UI/UX Design</a></li>
+                                <li><a href="#" class="nav-link">Testing & Debugging</a></li>
+                            </div>
+                            <div class="col-3 border m-1">
+                                <a href="#" class="h5 d-flex sub-color p-2 text-decoration-none">GRAPHICS DESIGN</a>
+                                <li><a href="#" class="nav-link">Logo Design</a></li>
+                                <li><a href="#" class="nav-link">Banner Design</a></li>
+                                <li><a href="#" class="nav-link">Business Card Design</a></li>
+                                <li><a href="#" class="nav-link">Product Design</a></li>
+                                <li><a href="#" class="nav-link">Motion Graphics</a></li>
+                                <li><a href="#" class="nav-link">Content Design</a></li>
+                            </div>
+                            <div class="col-3 border m-1">
+                                <a href="#" class="h5 d-flex sub-color p-2 text-decoration-none">VIDEO EDITING</a>
+                                <li><a href="#" class="nav-link"> Marketing Videos</a></li>
+                                <li><a href="#" class="nav-link">Promotional Videos</a></li>
+                                <li><a href="#" class="nav-link">Corporate & Training Videos</a></li>
+                                <li><a href="#" class="nav-link">Social Media Content</a></li>
+                                <li><a href="#" class="nav-link">Color Grading & Correction</a></li>
+                                <li><a href="#" class="nav-link">Audio Sync & Sound Design</a></li>
+                            </div>
+                        </div>
+                    </div>
+                <li class="nav-item"><a href="3" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="3" class="nav-link">TEAM</a></li>
+                <li class="nav-item"><a href="3" class="nav-link">PORTFOLIO</a></li>
+                <li class="nav-item"><a href="3" class="nav-link">BLOG</a></li>
+                <li class="nav-item"><a href="3" class="nav-link">CONTACT US</a></li>
+            </ul>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark d-block d-xl-none" style="background-color: #2a3d40;">
+            <div class="container">
+                <!-- Toggler Button -->
+                <button class="navbar-toggler" type="button" id="togglerButton">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Fullscreen Menu (Visible on desktop) -->
+            </div>
+        </nav>
+
+        <div class="box m-2 top-cta-button-small d-xl-none d-xxl-none">
+            <a class="text-decoration-none" href="https://wa.me/01705284130" target="_blank">Free Consultation</a>
+        </div>
+        <div class="h5 box  m-2 top-cta-button d-none d-xl-block d-xxl-block d-none">
+            <a class=" text-decoration-none" href="https://wa.me/01705284130" target="_blank">Free Consultation</a>
+        </div>
+    </section>
+    <!-- Side Panel -->
+    <div class="side-panel" id="sidePanel">
+        <div class="panel-header">
+            Services
+            <button class="close-btn" id="closeButton">&times;</button>
+        </div>
+        <ul>
+            <!-- Main Service -->
+            <li>
+                <a href="#">Digital Marketing</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Meta Ads Management</a></li>
+                    <li><a href="#">Google Ads Management</a></li>
+                    <li><a href="#">Web Analytics</a></li>
+                    <li><a href="#">CRO</a></li>
+                    <li><a href="#">Social Media Marketing</a></li>
+                    <li><a href="#">Search Engine Optimization</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Web Development</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Front-End Development</a></li>
+                    <li><a href="#">Back-End Development</a></li>
+                    <li><a href="#">Full-Stack Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                    <li><a href="#">Testing & Debugging</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Graphics Design</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Logo Design</a></li>
+                    <li><a href="#">Banner Design</a></li>
+                    <li><a href="#">Business Card Design</a></li>
+                    <li><a href="#">Product Design</a></li>
+                    <li><a href="#">Content Design</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Video Editing</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Marketing Videos</a></li>
+                    <li><a href="#">Promotional Videos</a></li>
+                    <li><a href="#">Corporate & Training Videos</a></li>
+                    <li><a href="#">Social Media Content</a></li>
+                    <li><a href="#">Color Grading & Correction</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- header end -->
+
+
+    <!-- side social menu start -->
+    <div class="social-bar">
+    <a href="https://www.facebook.com" target="_blank" class="social-link facebook"><i class="bi bi-facebook"></i></a>
+    <a href="https://www.instagram.com" target="_blank" class="social-link instagram"><i class="bi bi-instagram"></i></a>
+    <a href="https://twitter.com" target="_blank" class="social-link twitter"><i class="bi bi-twitter-x"></i></a>
+    <a href="https://pinterest.com" target="_blank" class="social-link pinterest"><i class="bi bi-pinterest"></i></a>
+    <a href="https://www.linkedin.com" target="_blank" class="social-link linkedin"><i class="bi bi-linkedin"></i></a>
+    <a href="https://wa.me/yournumber" target="_blank" class="social-link whatsapp"><i class="bi bi-whatsapp"></i></a>
+    </div>
+    <!-- end social menu  -->
+
+    <!-- home interface start -->
+    <section>
+        <div class="d-flex justify-content-center m-3">
+            <div class="d-inline-flex about-main text-center">WE INTRODUCE THE BEST FOR YOU </div>
+        </div>
+        <div class="container">
+            <p class="h2 text-white text-center d-block d-xl-none d-xxl-none">Unlock Your Brand's Growth Potential with Our All-in-One Digital Solutions</p>
+            <p class=" text-size text-white text-center d-none d-xl-block d-xxl-block">Unlock Your Brand's Growth Potential with Our All-in-One Digital Solutions</p>
+            <span class="text-center text-white-co justify-content-center d-flex mb-3">Insight Pro offers innovative solutions that enhance your brand and deliver the results you need for continued success</span>
+        </div>
+
+        <div class="d-flex justify-content-center mb-3">
+            <div class="h6 m-2 top-cta-button d-inline-flex d-block d-xl-none d-xxl-none box">
+                HIRE NOW
+            </div>
+            <div class="h6 m-2 top-cta-button d-inline-flex d-block d-xl-none d-xxl-none box">
+                BOOK A MEETING
+            </div>
+            <div class="h5 m-2 top-cta-button d-inline-flex d-none d-xl-block d-xxl-block box">
+                HIRE NOW
+            </div>
+            <div class="h5 m-2 top-cta-button d-inline-flex d-none d-xl-block d-xxl-block box">
+                BOOK A MEETING
+            </div>
+        </div>
+        <div>
+            <p class="h2 d-flex justify-content-center text-light mb-3 text-center">Certified Partner Of Meta, Google, Shopify</p>
+            <div class="d-sm-flex justify-content-center text-center mb-4">
+                <img class="bg-light p-2 text-dark bg-opacity-25" src="https://growthcart.agency/wp-content/uploads/2024/01/image-65.png" alt="">
+                <img class="bg-light p-2 text-dark bg-opacity-25" src="https://growthcart.agency/wp-content/uploads/2024/01/image-64.png" alt="">
+                <img class="bg-light p-2 text-dark bg-opacity-25" src="https://growthcart.agency/wp-content/uploads/2024/01/image-63.png" alt="">
+            </div> 
+        </div>
+    </section>
+    <!-- home interface end  -->
+
+
+    <!-- project complete  -->
+    <section class="work-bg container-fluid">
+        <div class="row work ">
+            <div class="col-3">
+                <h1 class="d-flex justify-content-center">100+</h1>
+                <span class="d-flex justify-content-center h5">Project Complete</span>
+            </div>
+            <div class="col-3">
+                <h1 class="d-flex justify-content-center">120+</h1>
+                <span class="d-flex justify-content-center h5">Happy Client</span>
+            </div>
+            <div class="col-3">
+                <h1 class="d-flex justify-content-center">3+</h1>
+                <span class="d-flex justify-content-center h5">Year's Experience</span>
+            </div>
+            <div class="col-3">
+                <h1 class="d-flex justify-content-center">1000+</h1>
+                <span class="d-flex justify-content-center h5">Hours Spend</span>
+            </div>
+        </div>
+    </section>
+    <!-- project complete section end  -->
+
+    <!-- servece section start  -->
+    <section class="container-fluid d-flex justify-content-around ">
+        <div class="d-inline-flex about-main mt-4 mb-5">
+            SERVICE WE PROVIDE
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="d-flex row justify-content-around">
+            <div class="card mb-3 box" style="width: 18rem; background-color: #0c615b;">
+                <div class="card-body">
+                    <img src="img/media.png" alt="" width="80px">
+                  <h3 class="card-title border-bottom text-light">DIGITAL MARKETING</h3>
+                  <p class="card-text h6 text-info">Insight Pro offers data-driven digital marketing services to boost your brand’s visibility, attract targeted audiences, and drive growth across all digital platforms.</p>
+                  <a href="dm.html" class="button-color btn" target="_blank">SERVICE</a>
+                </div>
+            </div>
+            <div class="card mb-3 box" style="width: 18rem;background-color: #0c615b;">
+                <div class="card-body">
+                    <img src="img/code.png" alt="" width="80px">
+                  <h3 class="card-title border-bottom text-light">WEB DEVELOPMENT</h3>
+                  <p class="card-text h6 text-info">Insight Pro provides custom web development services to create high-performing, user-friendly websites that elevate your brand, engage visitors, and drive conversions.</p>
+                  <a href="https://wa.me/+8801705284130" class="button-color btn" target="_blank">SERVICE</a>
+                </div>
+            </div>
+            <div class="card mb-3 box" style="width: 18rem;background-color: #0c615b;">
+                <div class="card-body">
+                    <img src="img/rgb.png" alt="" width="80px">
+                  <h3 class="card-title border-bottom text-light">GRAPHICS DESIGN</h3>
+                  <p class="card-text h6 text-info">Insight Pro offers creative graphic design services that bring your brand to life with visually compelling and impactful designs, making your business stand out.</p>
+                  <a href="https://wa.me/+8801705284130" class="button-color btn" target="_blank">SERVICE</a>
+                </div>
+            </div>
+            <div class="card mb-3 box" style="width: 18rem; background-color: #0c615b;">
+                <div class="card-body">
+                    <img src="img/online-video.png" alt="" width="80px">
+                  <h3 class="card-title d-none d-xl-block border-bottom text-light">VIDEO <br> EDITING</h3>
+                  <h3 class="card-title d-block d-xl-none border-bottom text-light">VIDEO EDITING</h3>
+                  <p class="card-text h6 text-info">Insight Pro delivers professional video editing services that enhance your brand’s storytelling, creating polished, engaging videos that captivate your audience.</p>
+                  <a href="https://wa.me/+8801705284130" class="button-color btn" target="_blank">SERVICE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section end  -->
+
+
+    <!-- service provide description  -->
+    <section class="container-fluid container mb-4 mt-4">
+        <div class="row p-3 p-sm-0 services-bg">
+            <div class="col">
+                <div class="d-flex justify-content-center tittle-qs container border-bottom text-light d-none d-xl-block">
+                    <p>Which Service Do You Need to Boost Your Business?</p>
+                </div>
+                <div class="d-flex justify-content-center tittle-qs-small container border-bottom text-light d-block d-xl-none">
+                    <p>Which Service Do You Need to Boost Your Business?</p>
+                </div>
+            </div>
+            <div class="col-sm-8" >
+                <div class="d-flex align-items-center tittle-des d-none d-xl-block "style="color: #00bc94;">         
+                Insight Pro Agency is here to elevate your brand to new heights. Whether you're looking for impactful digital marketing, a seamless website, eye-catching graphics, or professional video editing, we have the expertise to make it happen. Explore our services and find the one that aligns with your goals. Let's take the next step in growing your business together!
+                </div>
+                <div class="d-flex align-items-center tittle-des-small d-block d-xl-none" style="color: #00bc94;">         
+                Insight Pro Agency is here to elevate your brand to new heights. Whether you're looking for impactful digital marketing, a seamless website, eye-catching graphics, or professional video editing, we have the expertise to make it happen. Explore our services and find the one that aligns with your goals. Let's take the next step in growing your business together!
+                </div>
+                <div >
+                    <p class="h5 service-cta-button d-inline-flex box">Learn more</p>
+                    <p class="h5 service-cta-button d-inline-flex box">Content Now</p>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <!-- service provide description end  -->
+
+
+    <!-- about section start  -->
+    <section class="container-fluid d-flex justify-content-around ">
+        <div class="d-inline-flex about-main mb-2 ">
+            ABOUT
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-7 p-4 p-sm-0 row d-flex align-items-center">
+                <h1 class="text-light" style="color: #00bc94;">Why Marketing Agency</h1>
+                <span class="h5 d-none d-xl-block" style="color: #00bc94;">Choosing the right digital marketing partner can make all the difference in your business’s online success. At Marketing Agency BD (MABD), our niche-based marketing team has a 95% success rate in managing over 500+ projects across various specific niches. Each project benefits from a dedicated project manager, ensuring seamless communication and personalized attention. Our customized marketing solutions are tailored to your unique goals, helping you achieve optimal results.
+                   <br><br> With years of experience and a proven track record, Marketing Agency is known for its innovative strategies and comprehensive services. Our client-centric approach prioritizes your needs and exceeds your expectations, making us the ideal partner to drive your business forward. Contact us today to experience the difference!</span>
+                <span class=" d-block d-xl-none" style="color: #00bc94;">Choosing the right digital marketing partner can make all the difference in your business’s online success. At Marketing Agency BD (MABD), our niche-based marketing team has a 95% success rate in managing over 500+ projects across various specific niches. Each project benefits from a dedicated project manager, ensuring seamless communication and personalized attention. Our customized marketing solutions are tailored to your unique goals, helping you achieve optimal results.
+            </div>
+            <div class="col d-flex justify-content-end container-fluid">
+                <img class="d-none d-sm-block" width="400px" src="img/digital marketing agency.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="d-flex row justify-content-around m-sm-3">
+            <div class="box col-sm-6 col p-3 d-flex align-items-center m-4 rounded-4" style="width: 500px ; background-color: #0c615b;">
+                <div class="card-body text-center">
+                    <img src="img/target.png" alt="" width="100px">
+                  <h1 class="card-title border-bottom text-danger">Our Mission</h1>
+                  <p class="card-text h5" style="color: #0dcaf0">Insight Pro Agency aims to be Bangladesh’s premier service provider in digital marketing, web development, graphics design, and video editing by consistently delivering top-tier, innovative solutions tailored to each client’s needs. We are committed to empowering businesses with expert strategies and creative support that maximize growth, engage audiences, and build lasting success across digital landscapes.</p>
+                </div>
+            </div>
+            <div class="box col-sm-6 col p-3 d-flex align-items-center m-4 rounded-4" style="width: 500px; background-color: #0c615b;">
+                <div class="card-body text-center">
+                    <img src="img/growth.png" alt="" width="100px">
+                  <h1 class="card-title border-bottom text-danger">Our Vision</h1>
+                  <p class="card-text h5"style="color: #0dcaf0">Insight Pro Agency envisions setting new standards of excellence in Bangladesh by prioritizing client satisfaction and fostering remarkable business growth. Our goal is to become a trusted partner for our clients, committed to delivering impactful solutions that not only meet but exceed expectations, ensuring sustained success and continuous innovation in every project we undertake</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid d-flex justify-content-around">
+        <div class="d-inline-flex about-main mb-3 mt-2">
+            Industries We Serve
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="d-flex row justify-content-around">
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center pt-2 d-inline-flex serve">
+                        <i class="bi bi-cart-check-fill h1"></i>
+                    </div> 
+                    </div>
+                    
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">ECommerce</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">ECommerce</h5>
+            </div>
+            </div>
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center pt-2 d-inline-flex serve">
+                        <i class="bi bi-buildings-fill h1"></i>
+                    </div> 
+                    </div>
+                    
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">Real Estate</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">Real Estate</h5>
+                </div>
+            </div>
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center pt-2 d-inline-flex serve">
+                        <i class="bi bi-layers-half h1"></i>
+                    </div> 
+                    </div>
+                    
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">Prof. Services</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">Prof. Services</h5>
+            </div>
+            </div>
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center pt-2 d-inline-flex serve">
+                        <i class="bi bi-music-player h1"></i>
+                    </div> 
+                    </div>
+                    
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">Entertainment</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">Entertainment</h5>
+            </div>
+            </div>
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center pt-2 d-inline-flex serve">
+                        <img src="img/handshake.png" alt="" width="50px">
+                    </div> 
+                    </div>
+                    
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">NGO Organizations</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">NGO Organizations</h5>
+            </div>
+            </div>
+
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center d-inline-flex serve">
+                        <img src="img/dish.png" alt="" width="50px">
+                    </div> 
+                    </div>
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">Food And Beverage</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">Food And Beverage</h5>
+            </div>
+            </div>
+
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center d-inline-flex serve">
+                        <img src="img/bag.png" alt="" width="50px">
+                    </div> 
+                    </div>
+                    
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">Government</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">Government</h5>
+            </div>
+            </div>
+            
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center pt-2 d-inline-flex serve">
+                        <i class="bi bi-file-person h1"></i>
+                    </div> 
+                    </div>
+                    
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">Portfolio</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">Portfolio</h5>
+            </div>
+            </div>
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center pt-2 d-inline-flex serve">
+                        <i class="bi bi-ev-front-fill h1"></i>
+                    </div> 
+                    </div>
+                    
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">Automotive</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">Automotive</h5>
+            </div>
+            </div>
+            <div class="card m-sm-3 mb-3 col-sm-2 col-5 box" style="background-color: #0c615b;">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center">
+                       <div class="rounded-circle justify-content-center align-items-center pt-2 d-inline-flex serve">
+                        <i class="bi bi-bullseye h1"></i>
+                    </div> 
+                    </div>
+                    
+                  <h6 class="d-block d-sm-none card-title pt-4 text-center justify-content-center d-flex text-light ">Other</h5>
+                  <h5 class="d-none d-sm-block card-title pt-4 text-center justify-content-center d-flex text-light ">Other</h5>
+            </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- team Management  -->
+    <section class="container-fluid d-flex justify-content-around ">
+        <div class="d-inline-flex about-main mb-1 mt-4">
+            TEAM
+        </div>
+    </section>
+    <section class="container-fluid container mb-3 mt-3">
+            <div class="row">
+                <!-- Card 1 -->
+                <div class="col-md-4">
+                    <div class="box text-center" style="border-radius: 12px; border: 1px solid white; background-color: #2a3d40;">
+                        <img src="img/IMG_20241108_171100-removebg.png" class="card-img-top mx-auto" alt="Profile Picture" style="width: 200px;">
+                        <div class="card-body">
+                            <div class="name-color">
+                                <h2 class="card-title  fw-bold">Shakil Ahmed</h5>
+                                <p class="card-text text-muted" style="font-weight: bold;">Full Stack Digital Marketer,CEO</p>
+                            </div>
+                            <div class="social-icons d-flex justify-content-center gap-3 mt-2 mb-2">
+                                <a href="https://www.facebook.com/strategydevelopment.expert" target="_blank" class=""><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/marketershakil7/" target="_blank" class=""><i class="bi bi-instagram"></i></a>
+                                <a href="https://x.com/ShakilAhme72951" target="_blank" class=""><i class="bi bi-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/shaku-ahmed/" target="_blank" class=""><i class="bi bi-linkedin"></i></a>
+                                <a href="https://www.pinterest.com/marketershakil7/" target="_blank" class=""><i class="bi bi-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col row my-about m-4 d-none d-sm-block d-inline-flex" style="color: #0dc79f;"> 
+                    <h1 class="text-center">Shakil Ahmed - CEO at Insight Pro Agency</h1> 
+                    I’m Shakil Ahmed, CEO of Insight Pro Agency, where we offer premium services in digital marketing, web development, graphic design, and video editing. Leading a skilled team, I apply my expertise to deliver tailored strategies that drive measurable results. From innovative digital campaigns to engaging creative content, we help businesses achieve their goals effectively. With a focus on client satisfaction, innovation, and excellence, Insight Pro Agency ensures every project contributes to success in the competitive digital landscape.
+                </div>
+                <div class="col-sm-8 col my-about-small m-3 d-block d-sm-none" style="color: #00bc94;">         
+                    I am Shakil Ahmed, CEO of Insight Pro Agency, where we provide high-quality digital marketing, web development, graphic design, and video editing services. I lead a talented team, applying my expertise in marketing and development to drive results and growth. From digital campaigns to creative content, we ensure every project helps our clients achieve their goals effectively.
+                </div>
+            </div>
+        
+
+        <div class="d-flex row justify-content-around m-sm-5">
+            <div class="col-md-3 col-6 mb-2">
+                <div class="box text-center" style="border-radius: 12px; border: 1px solid white; background-color: #2a3d40;">
+                    <img src="img/Untitled design/sabbir.png" class="card-img-top mx-auto" alt="Profile Picture" style="width: 150px;">
+                    <div class="card-body">
+                        <div class="name-color">
+                            <h5 class="card-title  fw-bold">Sabbir Ahnaf </h5>
+                            <p class="card-text text-muted"style="font-weight: bold;">Social Media Marketer</p>
+                        </div>
+                        <div class="social-icons d-flex justify-content-center gap-3 mt-2 mb-2">
+                            <a href="https://www.facebook.com/strategicproagency" target="_blank" class=""><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/marketershakil7/" target="_blank" class=""><i class="bi bi-instagram"></i></a>
+                            <a href="https://x.com/ShakilAhme72951" target="_blank" class=""><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/shaku-ahmed/" target="_blank" class=""><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.pinterest.com/marketershakil7/" target="_blank" class=""><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <div class="text-center box" style="border-radius: 12px; border: 1px solid white; background-color: #2a3d40;">
+                    <img src="img/Untitled design/Fahim.png" class="card-img-top mx-auto" alt="Profile Picture" style="width: 150px;">
+                    <div class="card-body">
+                        <div class="name-color">
+                            <h5 class="card-title  fw-bold">Mohammad Fahim</h5>
+                            <p class="card-text text-muted"style="font-weight: bold;">SEM Specialist </p>
+                        </div>
+                        <div class="social-icons d-flex justify-content-center gap-3 mt-2 mb-2">
+                            <a href="https://www.facebook.com/strategicproagency" target="_blank" class=""><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/marketershakil7/" target="_blank" class=""><i class="bi bi-instagram"></i></a>
+                            <a href="https://x.com/ShakilAhme72951" target="_blank" class=""><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/shaku-ahmed/" target="_blank" class=""><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.pinterest.com/marketershakil7/" target="_blank" class=""><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <div class="text-center box" style="border-radius: 12px; border: 1px solid white; background-color: #2a3d40;">
+                    <img src="img/Untitled design/sahed.png" class="card-img-top mx-auto" alt="Profile Picture" style="width: 150px;">
+                    <div class="card-body">
+                        <div class="name-color">
+                            <h5 class="card-title  fw-bold">Shahed Sarker</h5>
+                            <p class="card-text text-muted"style="font-weight: bold;">SEO Expert</p>
+                        </div>
+                        <div class="social-icons d-flex justify-content-center gap-3 mt-2 mb-2">
+                            <a href="https://www.facebook.com/strategicproagency" target="_blank" class=""><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/marketershakil7/" target="_blank" class=""><i class="bi bi-instagram"></i></a>
+                            <a href="https://x.com/ShakilAhme72951" target="_blank" class=""><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/shaku-ahmed/" target="_blank" class=""><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.pinterest.com/marketershakil7/" target="_blank" class=""><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-4">
+                <div class="text-center box" style="border-radius: 12px; border: 1px solid white; background-color: #2a3d40;">
+                    <img src="img/Untitled design/yamin.png" class="card-img-top mx-auto" alt="Profile Picture" style="width: 150px;">
+                    <div class="card-body">
+                        <div class="name-color">
+                            <h5 class="card-title  fw-bold">Yamin</h5>
+                            <p class="card-text text-muted" style="font-weight: bold;">Web Analyst</p>
+                        </div>
+                        <div class="social-icons d-flex justify-content-center gap-3 mt-2 mb-2">
+                            <a href="https://www.facebook.com/strategicproagency" target="_blank" class=""><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/marketershakil7/" target="_blank" class=""><i class="bi bi-instagram"></i></a>
+                            <a href="https://x.com/ShakilAhme72951" target="_blank" class=""><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/shaku-ahmed/" target="_blank" class=""><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.pinterest.com/marketershakil7/" target="_blank" class=""><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-sm-2 mb-4">
+                <div class="text-center box" style="border-radius: 12px; border: 1px solid white; background-color: #2a3d40;">
+                    <img src="img/Untitled design/rakib.png" class="card-img-top mx-auto" alt="Profile Picture" style="width: 150px;">
+                    <div class="card-body">
+                        <div class="name-color">
+                            <h5 class="card-title  fw-bold">Rakibul Hasan</h5>
+                            <p class="card-text text-muted" style="font-weight: bold;">Full Stack Web Developer</p>
+                        </div>
+                        <div class="social-icons d-flex justify-content-center gap-3 mt-2 mb-2">
+                            <a href="https://www.facebook.com/strategicproagency" target="_blank" class=""><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/marketershakil7/" target="_blank" class=""><i class="bi bi-instagram"></i></a>
+                            <a href="https://x.com/ShakilAhme72951" target="_blank" class=""><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/shaku-ahmed/" target="_blank" class=""><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.pinterest.com/marketershakil7/" target="_blank" class=""><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6 mb-sm-1 mb-4">
+                <div class="text-center box" style="border-radius: 12px; border: 1px solid white; background-color: #2a3d40;">
+                    <img src="img/Untitled design/shariful.png" class="card-img-top mx-auto" alt="Profile Picture" style="width: 150px;">
+                    <div class="card-body">
+                        <div class="name-color">
+                            <h5 class="card-title  fw-bold">Shariful Islam</h5>
+                            <p class="card-text text-muted" style="font-weight: bold;">Front-End Developer</p>
+                        </div>
+                        <div class="social-icons d-flex justify-content-center gap-3 mt-2 mb-2">
+                            <a href="https://www.facebook.com/strategicproagency" target="_blank" class=""><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/marketershakil7/" target="_blank" class=""><i class="bi bi-instagram"></i></a>
+                            <a href="https://x.com/ShakilAhme72951" target="_blank" class=""><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/shaku-ahmed/" target="_blank" class=""><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.pinterest.com/marketershakil7/" target="_blank" class=""><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="text-center box" style="border-radius: 12px; border: 1px solid white; background-color: #2a3d40;">
+                    <img src="img/Untitled design/jahidul.png" class="card-img-top mx-auto" alt="Profile Picture" style="width: 150px;">
+                    <div class="card-body">
+                        <div class="name-color">
+                            <h5 class="card-title  fw-bold">Jahidul Islam</h5>
+                            <p class="card-text text-muted"style="font-weight: bold;">Graphics Designer</p>
+                        </div>
+                        <div class="social-icons d-flex justify-content-center gap-3 mt-2 mb-2">
+                            <a href="https://www.facebook.com/strategicproagency" target="_blank" class=""><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/marketershakil7/" target="_blank" class=""><i class="bi bi-instagram"></i></a>
+                            <a href="https://x.com/ShakilAhme72951" target="_blank" class=""><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/shaku-ahmed/" target="_blank" class=""><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.pinterest.com/marketershakil7/" target="_blank" class=""><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-6">
+                <div class="text-center box" style="border-radius: 12px; border: 1px solid white; background-color: #2a3d40;">
+                    <img src="img/Untitled design/ledu.png" class="card-img-top mx-auto" alt="Profile Picture" style="width: 150px;">
+                    <div class="card-body">
+                        <div class="name-color">
+                            <h5 class="card-title  fw-bold">Fahim Shareare</h5>
+                            <p class="card-text text-muted" style="font-weight: bold;">Video Editor</p>
+                        </div>
+                        <div class="social-icons d-flex justify-content-center gap-3 mt-2 mb-2">
+                            <a href="https://www.facebook.com/strategicproagency" target="_blank" class=""><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/marketershakil7/" target="_blank" class=""><i class="bi bi-instagram"></i></a>
+                            <a href="https://x.com/ShakilAhme72951" target="_blank" class=""><i class="bi bi-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/shaku-ahmed/" target="_blank" class=""><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.pinterest.com/marketershakil7/" target="_blank" class=""><i class="bi bi-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <!-- team managment section end  -->
+
+    <!-- work process start  -->
+    <section class="container-fluid d-flex justify-content-around ">
+            <div class="d-inline-flex about-main ">
+                Process
+            </div>
+    </section>
+    <section class="container-fluid d-flex justify-content-around">
+        <div class="d-inline-flex h1 text-center text-white">
+            How we work to help your business grow
+        </div>
+    </section>
+    <div class="d-flex justify-content-center h6 text-center">
+        We follow a work process for our project. We understand your requirement very clearly and provide you the perfect services that your business needs.
+    </div>
+
+    <section class="container-fluid">
+        <div class="d-flex row justify-content-around m-sm-3">
+            <div class="card mb-3 box" style="width: 18rem; background-color: #0c615b;">
+                <div class="card-body text-center">
+                    <i class="bi bi-1-square-fill h1 text-info"></i>
+                  <h3 class="card-title border-bottom text-light">Requirement</h3>
+                  <p class="card-text h6 text-info">Get your requirement/demand very clearly.</p>
+                </div>
+            </div>
+            <div class="card mb-3 box" style="width: 18rem;background-color: #0c615b;">
+                <div class="card-body text-center">
+                    <i class="bi bi-2-square-fill h1 text-info"></i>
+                  <h3 class="card-title border-bottom text-light">Research</h3>
+                  <p class="card-text h6 text-info">Based on your requirement, We will conduct a research.</p>
+                </div>
+            </div>
+            <div class="card mb-3 box" style="width: 18rem;background-color: #0c615b;">
+                <div class="card-body text-center ">
+                    <i class="bi bi-3-square-fill h1 text-info"></i>
+                  <h3 class="card-title border-bottom text-light">Project Planning</h3>
+                  <p class="card-text h6 text-info">With you, We will create a project palnning</p>
+                </div>
+            </div>
+            <div class="card mb-3 box" style="width: 18rem; background-color: #0c615b;">
+                <div class="card-body text-center">
+                    <i class="bi bi-4-square-fill h1 text-info"></i>              
+                  <h3 class="card-title border-bottom text-light">Project Implementation</h3>
+                  <p class="card-text h6 text-info">We will kick start the project to meet the deadline</p>
+                </div>
+            </div>
+            <div class="card mb-3 box" style="width: 18rem; background-color: #0c615b;">
+                <div class="card-body text-center">
+                    <i class="bi bi-5-square-fill h1 text-info"></i>      
+                  <h3 class="card-title border-bottom text-light">Delivery</h3>
+                  <p class="card-text h6 text-info">Delivery the project before deadline ofcourse</p>
+                </div>
+            </div>
+            <div class="card mb-3 box" style="width: 18rem; background-color: #0c615b;">
+                <div class="card-body text-center">
+                    <i class="bi bi-6-square-fill h1 text-info"></i> 
+                  <h3 class="card-title border-bottom text-light">Maintenance</h3>
+                  <p class="card-text h6 text-info">We will maintenance the project, depend on our agreement</p>
+                </div>
+            </div>
+            <div class="card mb-3 box" style="width: 18rem; background-color: #0c615b;">
+                <div class="card-body text-center">
+                    <i class="bi bi-7-square-fill h1 text-info"></i> 
+                  <h3 class="card-title border-bottom text-light">Support</h3>
+                  <p class="card-text h6 text-info">We will support you for free for a certain period</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work process end  -->
+
+    <!-- portfolio section start  -->
+    <section class="container-fluid d-flex justify-content-around ">
+        <div class="d-inline-flex about-main mb-1 ">
+            PORTFOLIO
+        </div>
+    </section>
+
+    <div>
+
+    </div>
+    <div class="container mt-4">    
+        <div class="gallery-container">
+            <!-- Left Gallery -->
+            <div class="d-flex flex-column">
+                <button class="arrow-btn bi bi-caret-up-square-fill text-light" id="arrow-up"></button>
+                <div class="left-gallery" id="left-gallery">
+                    <img src="img-2/Screenshot_1.png" alt="Image 1" data-full="img-2/Screenshot_1.png">
+                    <img src="img-2/Screenshot_2.png" alt="Image 2" data-full="img-2/Screenshot_2.png">
+                    <img src="img-2/Screenshot_3.png" alt="Image 3" data-full="img-2/Screenshot_3.png">
+                    <img src="img-2/Screenshot_4.png" alt="Image 4" data-full="img-2/Screenshot_4.png">
+                    <img src="img-2/Screenshot_5.png" alt="Image 5" data-full="img-2/Screenshot_5.png">
+                    <img src="img-2/Screenshot_6.png" alt="Image 5" data-full="img-2/Screenshot_6.png">
+                    <img src="img-2/Screenshot_7.png" alt="Image 5" data-full="img-2/Screenshot_7.png">
+                    <img src="img-2/Screenshot_8.png" alt="Image 5" data-full="img-2/Screenshot_8.png">
+                    <img src="img-2/Screenshot_9.png" alt="Image 5" data-full="img-2/Screenshot_9.png">
+                    <img src="img-2/Screenshot_10.png" alt="Image 5" data-full="img-2/Screenshot_10.png">
+                    <img src="img-2/Screenshot_11.png" alt="Image 5" data-full="img-2/Screenshot_11.png">
+                    <img src="img-2/Screenshot_12.png" alt="Image 5" data-full="img-2/Screenshot_12.png">
+                </div>
+                <button class="arrow-btn bi bi-caret-down-square-fill text-light" id="arrow-down"></button>
+            </div>
+  
+            <!-- Right Gallery -->
+            <div class="right-gallery d-none d-sm-block">
+                <img id="main-image" src="img-2/Screenshot_1.png" alt="Main Display">
+            </div>
+            <div class="d-flex flex-column d-none d-sm-block">
+                <button class="arrow-btn bi bi-caret-up-square-fill text-light" id="arrow-up-right"></button>
+                <div class="end-gallery" id="end-gallery">
+                    <img src="img-3/Screenshot_1.png" alt="Image 1" data-full="img-3/Screenshot_1.png">
+                    <img src="img-3/Screenshot_2.png" alt="Image 2" data-full="img-3/Screenshot_2.png">
+                    <img src="img-3/Screenshot_3.png" alt="Image 3" data-full="img-3/Screenshot_3.png">
+                    <img src="img-3/Screenshot_4.png" alt="Image 4" data-full="img-3/Screenshot_4.png">
+                    <img src="img-3/Screenshot_5.png" alt="Image 5" data-full="img-3/Screenshot_5.png">
+                    <img src="img-3/Screenshot_6.png" alt="Image 5" data-full="img-3/Screenshot_6.png">
+                    <img src="img-3/Screenshot_7.png" alt="Image 5" data-full="img-3/Screenshot_7.png">
+                    <img src="img-3/Screenshot_8.png" alt="Image 5" data-full="img-3/Screenshot_8.png">
+                    <img src="img-3/Screenshot_9.png" alt="Image 5" data-full="img-3/Screenshot_9.png">
+                    <img src="img-3/Screenshot_10.png" alt="Image 5" data-full="img-3/Screenshot_10.png">
+                </div>
+                <button class="arrow-btn bi bi-caret-down-square-fill text-light" id="arrow-down-right"></button>
+            </div>
+        </div>
+    </div>
+      <!-- portfolio section end  -->
+
+      <!-- client Testimonial  -->
+      <section class="container-sm">
+      <div class="testimonial-section">
+        <h2 class="text-light">What My Clients Say About Me</h2>
+        <div class="testimonial-slider">
+          <div class="testimonial active">
+            <img src="img-4/Screenshot_1.png" alt="" width="80px" class="rounded-circle">
+            <p>The Metrics Monkey simplified Google Tag Manager for us, delivering cleaner, accurate data with a smooth start-to-finish setup process.</p>
+            <h5>⭐⭐⭐⭐⭐</h5>
+            <span class="author">John Doe</span><br>
+            <span class="role">CEO</span>
+          </div>
+          <div class="testimonial active">
+            <img src="img-4/Screenshot_2.png" alt="" width="80px" class="rounded-circle">
+            <p>Thanks to The Metrics Monkey, our Google Tag Manager setup is seamless, with precise data and a hassle-free experience from their expert team.</p>
+           <h5>⭐⭐⭐⭐⭐</h5>
+            <span class="author">Berkley</span><br>
+            <span class="role">CEO & Owner</span>
+          </div>
+          <div class="testimonial">
+            <img src="img-4/Screenshot_3.png" alt="" width="80px" class="rounded-circle">
+            <p>Cleaner data, effortless setup! The Metrics Monkey's expert team nailed our Google Tag Manager implementation from start to finish.</p>
+           <h5>⭐⭐⭐⭐⭐</h5>
+            <span class="author">Jane Smith</span><br>
+            <span class="role">Marketing Manager</span>
+          </div>
+          <div class="testimonial">
+            <img src="img-4/Screenshot_4.png" alt="" width="80px" class="rounded-circle">
+            <p>The Metrics Monkey's expert handling of Google Tag Manager left us with accurate data and a smooth process from setup to completion</p>
+           <h5>⭐⭐⭐⭐⭐</h5>
+            <span class="author">Chris Brown</span><br>
+            <span class="role">Business Owner</span>
+          </div>
+          <div class="testimonial">
+            <img src="img-4/Screenshot_5.png" alt="" width="80px" class="rounded-circle">
+            <p>From setup to execution, The Metrics Monkey delivered clean, precise data with their effortless Google Tag Manager expertise.</p>
+           <h5>⭐⭐⭐⭐⭐</h5>
+            <span class="author">Emily Davis</span><br>
+            <span class="role">Director</span>
+          </div>
+          <div class="testimonial">
+            <img src="img-4/Screenshot_60.png" alt="" width="80px" class="rounded-circle">
+            <p>The Metrics Monkey's team made Google Tag Manager a breeze, providing a flawless setup process and accurate, cleaner data.</p>
+           <h5>⭐⭐⭐⭐⭐</h5>
+            <span class="author">Michael Lee</span><br>
+            <span class="role">Founder</span>
+          </div>
+        </div>
+        <div class="controls">
+          <button id="prev"><i class="bi bi-arrow-left-square-fill"></i></button>
+          <button id="next"><i class="bi bi-arrow-right-square-fill"></i></button>
+        </div>
+      </div>
+    </section>
+      <!-- client Testimonial section end  -->
+
+      <!-- footer sction start  -->
+      <section class="container mb-3">
+        <div class="d-flex justify-content-center m-3">
+            <div class="d-inline-flex about-main">Contact</div>
+        </div>
+        <div class="mt-3 contact-section">
+            <div class="row">
+                <div class="col-md-6 row">
+                    <h2 class="d-flex justify-content-center" style="color: white;">Contact Information</h2>
+                    <div class="contact-details text-center" style="color: #17eeee;">
+                        <p class="mt-2"><i class="bi bi-telephone-fill"></i> <strong>Phone:</strong> +880-1705284130</p>
+                        <p class="mt-2"><i class="bi bi-envelope-fill"></i> <strong>Email:</strong> hire@insightpro.agnecy</p>
+                        <p class="mt-2"><i class="bi bi-geo-alt-fill"></i> <strong>Address:</strong> Kazipur, Sirajganj, Dhaka, Bangladesh</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" placeholder="Full Name" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="text" class="form-control" placeholder="Your Phone" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select" required>
+                                <option selected disabled>Choose Service</option>
+                                <option>Digital marketing</option>
+                                <option>Web Development</option>
+                                <option>Graphics design</option>
+                                <option>Video Editing</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Write Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="button-color btn btn-primary w-100">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <footer class="bg-dark text-light py-4 p-5 m-sm-1 text-center">
+            <div class="container">
+              <div class="row">
+                <!-- About Section -->
+                <div class="col-md-4 mb-3">
+                  <h5 class="text-uppercase h3">About Us</h5>
+                  <p class="h6">Insight Pro Agency specializes in tailored strategies to elevate your brand and drive success. Let's achieve your goals together.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-3">
+                  <h5 class="text-uppercase h3">Quick Links</h5>
+                  <ul class="list-unstyled footer">
+                    <li><a href="#services" class="text-light text-decoration-none h5">Services</a></li>
+                    <li><a href="#portfolio" class="text-light text-decoration-none h5">Portfolio</a></li>
+                    <li><a href="#about" class="text-light text-decoration-none h5">About</a></li>
+                    <li><a href="#contact" class="text-light text-decoration-none h5">Contact</a></li>
+                  </ul>
+                </div>
+                <!-- Contact Section -->
+                <div class="col-md-4 mb-3">
+                  <h3 class="text-uppercase">Contact Us</h3>
+                  <h5>Email: <a href="mailto:info@strategicproagency.com" class="text-light text-decoration-none">hire@insightpro.agency </a></h5>
+                  <h5>Phone: <a href="tel:+1234567890" class="text-light text-decoration-none">+880 1705-284130</a></h5>
+                  <div class="">
+                    <a href="https://www.facebook.com" target="_blank" class="social-lin facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com" target="_blank" class="social-lin instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://twitter.com" target="_blank" class="social-lin twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://pinterest.com" target="_blank" class="social-lin pinterest"><i class="bi bi-pinterest"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" class="social-lin linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://wa.me/yournumber" target="_blank" class="social-lin whatsapp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+              </div>
+              <div class="text-center mt-4">
+                <p class="mb-0">Shakil Ahmed © 2024 Insight Pro Agency. All rights reserved.</p>
+              </div>
+            </div>
+          </footer>
+          <!-- footer section end  -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
