@@ -640,3 +640,58 @@
     height: 70px !important;
   }
 }
+
+.progress-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap ;
+  gap: 20px;
+}
+
+.progress-box {
+  background-color: #0c615b;
+  border-radius: 10px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 4px 10px #afffff;
+}
+
+.progress-box h2 {
+  font-size: 1.5em;
+  color: #dfd9d9;
+  margin-bottom: 8px;
+}
+
+.progress {
+  height: 30px !important;
+  background-color: #110d0d ;
+  border-radius: 10px !important;
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+
+/* Specific color for each stat */
+.ad-spend {
+  background-color: black !important; /* Green */
+}
+
+.websites-built {
+  background-color: black !important; /* Orange */
+}
+
+.videos-produced {
+  background-color: black !important; /* Blue */
+}
+
+.designs-delivered {
+  background-color: black !important; /* Purple */
+}
