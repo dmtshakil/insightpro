@@ -1,4 +1,26 @@
 
+$(document).ready(function() {
+    var colors = [ 'red', 'black']; // Colors for each string
+    var currentIndex = 0;
+
+    var typed = new Typed('#element', {
+      strings: ['INSIGHT PRO AGENCY', 'DIGITAL MARKETING', 'WEB DEVELOPMENT','GRAPHICS DESIGN', 'VIDEO EDITING', 'BEST SERVICE PROVIDER'],
+      typeSpeed: 50,
+      backSpeed: 25,
+      loop: true,
+      preStringTyped: function(arrayPos) {
+        // Change color for each string
+        currentIndex = arrayPos % colors.length; // Ensure the index is within bounds
+        $('#element').css('color', colors[currentIndex]);
+      }
+    });
+});
+
+
+
+
+
+
 $(document).ready(function () {
     const $gallery = $('#left-gallery');
 
