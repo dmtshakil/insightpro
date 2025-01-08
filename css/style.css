@@ -688,3 +688,56 @@
 .designs-delivered {
   background-color: black !important; /* Purple */
 }
+
+
+
+
+
+
+
+/* marketing css  */
+
+.card-color{
+  background: #0c615b !important;
+  padding: 38px  5px 5px 5px !important;
+  border-start-end-radius: 20px !important;
+  border-start-start-radius: 20px !important;
+}
+.card-color:hover{
+  background: #51c2ba !important;
+  padding: 5px  5px 38px 5px !important;
+  border-start-end-radius: 5px !important;
+  border-start-start-radius: 5px !important;
+  border-end-end-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  transition: all 0.8s ease;
+}
+
+.service-card .rounded-circle{
+  background-color: #dff3ca;
+  border: 2px solid #F72C5B;
+}
+
+.service-card {
+  background-color: #51c2ba ;
+  border-start-end-radius: 20px ;
+  border-start-start-radius: 20px ;
+}
+
+.card-color:hover{
+.service-card {
+  background-color: #0c615b ;
+  border-end-end-radius: 20px ;
+  border-bottom-left-radius: 20px ;
+  border-start-end-radius: 5px ;
+  border-start-start-radius: 5px ;
+  transition: all 0.6s ease; 
+  color: #E4F1AC; 
+} 
+.service-card .rounded-circle{
+  background-color: #00aec5;
+  border: 2px solid #ffffff;
+  transition: all 0.6s ease;
+}
+
+}
