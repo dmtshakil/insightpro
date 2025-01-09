@@ -109,15 +109,11 @@ $('#closeButton').on('click', function () {
 
 // Toggle Sub-Menus
 $('.side-panel ul li > a').on('click', function (e) {
-    e.preventDefault();
-    $(this).siblings('.sub-menu').slideToggle();
-});
-
-// Close the side panel when clicking outside
-$(document).on('click', function (e) {
-    if (!$(e.target).closest('#sidePanel, #togglerButton').length) {
-        $('#sidePanel').removeClass('open');
-    }
+  // যদি এই লিংকের পরবর্তী সাব-মেনু থাকে, কেবল তখনই ডিফল্ট ইভেন্ট বন্ধ করুন
+  if ($(this).siblings('.sub-menu').length > 0) {
+      e.preventDefault();
+      $(this).siblings('.sub-menu').slideToggle();
+  }
 });
 
 
