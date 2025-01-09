@@ -15,20 +15,21 @@
 .side-panel {
   position: fixed;
   top: 0;
-  right: -350px; /* Initially hidden off-screen */
+  right: -350px; /* Initially hidden */
   width: 350px;
-  height: 100vh;
+  height: 100vh; /* Full viewport height */
   background-color: #2a3d40;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
   z-index: 1050;
-  overflow-y: auto;
+  overflow-y: auto; /* Enable scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
   transition: all 0.3s ease;
 }
 .side-panel.open {
   right: 0; /* Slide in when toggled */
 }
 .side-panel .panel-header {
-  padding: 20px;
+  padding: 10px;
   background-color: #1f2e33;
   color: #fff;
   text-align: center;
@@ -63,11 +64,11 @@
 }
 .close-btn {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 20px;
+  right: 20px;
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 40px;
   color: #fff;
   cursor: pointer;
 }
