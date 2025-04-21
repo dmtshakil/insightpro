@@ -183,6 +183,37 @@
   
 }
 
+#support-icon {
+  position: fixed;
+  bottom: 110px; /* Adjust as needed */
+  right: 25px;
+  width: 70px;
+  background-color: #00c8c8;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 5000;
+  cursor: pointer;
+  animation: slideIn 0.6s ease forwards;
+}
+
+#support-icon img {
+  width: 70px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
 .my-about{
   color: rgb(255, 255, 255);
   font-weight: 300;
